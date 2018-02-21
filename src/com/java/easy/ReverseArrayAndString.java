@@ -1,6 +1,6 @@
 package com.java.easy;
 
-public class ReverseArray {
+public class ReverseArrayAndString {
 	////// 
 	public static int[] reverseArray(int[] array) {
 		for(int i=0; i<array.length/2; i++){ 
@@ -31,7 +31,7 @@ public class ReverseArray {
 		System.out.println("");
 	}
 	public static void main (String[] args) {
-		int arr[] = {1,3,6,7};
+		int arr[] = {1,3,6,7,3};
 		printArray(arr);
 		reverseArray(arr);
 		printArray(arr);
